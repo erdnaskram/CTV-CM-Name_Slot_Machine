@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+
+:root {
+    --hukGelb: #FDD319;
+    --beige: #FFF7EF;
+    --hukBlau: #4e7380;
+    --hukHellBlau: #8DAEB9;
+    --dunkelGrau: #343434;
+    --hellGrau: #454545;
+    --hukRot: #992a4f;
+
+    --background: var(--beige);
+    --backgroundPicture: url("../Pictures/Bild3V2.jpg");
+}
+
+html {
+    background-image: var(--backgroundPicture);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: transparent !important;
+}
+
+.center {
+    margin: auto;
+}
+
+.wrapper {
+    background-color: var(--background);
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    min-height: 30vh;
+    /*display: flex;*/
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+#controlPanel{
+    align-items: center;
+    display: flex;
+
+}
+
+form {
+    padding-left: 20px;
+    text-align: center;
+}
+
+
+#Azubis{
+    box-sizing: content-box;
+    background-color: #4e7380;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    height: 80px;
+    border-radius: 20px;
+    color: #FDD319;
+}
+
+#winner {
+    padding-top: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+footer {
+    text-align: center;
+    color: var(--darkmodeFont);
+    padding: 24px;
+}
+
+/*TODO Footer immer ganz unten*/
+footer.absolute {
+    position: relative;
+    bottom: 10px;
+
+}
+
+footer p {
+    margin-bottom: 4px;
+}
+
+#version_titel {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0 0 24px 0;
+}

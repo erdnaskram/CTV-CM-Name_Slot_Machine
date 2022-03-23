@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Slot_Machine">
+    <meta name="author" content="erdnaskram">
+    <link rel="icon" type="image/png" href="assets/Pictures/favicon.png">
+    <link href="assets/CSS/style.css" rel="stylesheet">
+
+    <script src="assets/script/script.js"></script>
+    <script src="assets/script/data.js"></script>
+    <script src="assets/script/slotmachine.min.js"></script>
+
+
+    <title>Camp Master</title>
+
+
+    <style>
+    </style>
+
+
+    <script>
+        const planeMachine = document.querySelector('#planeMachine');
+        new SlotMachine(planeMachine, {
+        active: 1,
+        delay: 450,
+        auto: 1500,
+        randomize() {
+            return this.nextIndex;
+        }
+        });
+
+        // Using jQuery
+        $('#planeMachine2').slotMachine({
+        active: 1,
+        delay: 450,
+        auto: 1500,
+        randomize() {
+            return this.nextIndex;
+        }
+        });
+    </script>
+
+</head>
+
+
+<body>
+
+<div>
+    <div class="wrapper center">
+        <main>
+
+            <h1>Camp Master</h1>
+            <h3>Spieler Generator</h3>
+            <h3>V 0.0.1</h3>
+            <br>
+
+            <section id="controlPanel">
+                <form>
+                    <input id="bCheck" value="Bestätigen" type="button" onclick="selectDataOfAll()">
+                    <input id="bRandom" value="Ziehen" type="button" onclick="generate()">
+                    <input type="checkbox" id="del" value="pe2j">
+                    <label for="del">Delete Winner</label>
+
+                    <br>
+                    <div id="planeMachine">
+                        <div>Madrid</div>
+                        <div>London</div>
+                        <div>New York</div>
+                      </div>
+
+                </form>
+            </section>
+
+            <section id="Azubis">
+                <div id="box">
+                    <h2 id="winner">- Gewinner -</h2>
+                </div>
+            </section>
+
+        </main>
+        <footer class="absolute">
+            <p>Copyright 2022 | erdnaskram</p>
+            <a id="version_titel">Version 0.0.1 - 17.03.2022</a> <br>
+        </footer>
+    </div>
+</div>
+
+<script src="./assets/JavaScript/data.js"></script>
+</body>
+
+</html>
