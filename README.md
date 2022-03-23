@@ -2,5 +2,5 @@
 
 
 
-# Idee:
+### Idee:
 https://josex2r.github.io/jQuery-SlotMachine/
