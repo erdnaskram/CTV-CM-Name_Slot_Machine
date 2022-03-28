@@ -2,16 +2,26 @@
 
 
 
+/* #1e3d59,
+#f5f0e1,
+#ff6e40,
+#ffc13b,
+#d04841,
+#9fdbe1,
+#83b8c1 */
+
 :root {
-    --hukGelb: #FDD319;
-    --beige: #FFF7EF;
-    --hukBlau: #4e7380;
-    --hukHellBlau: #8DAEB9;
+    --hell: #f5f0e1;
+    --orange: #ff6e40;
+    --blau: #1e3d59;
+    --gelb: #ffc13b;
+    --rot: #d04841;
+    --tuerkisHell: #9fdbe1;
+    --tuerkisDunkel: #83b8c1;
     --dunkelGrau: #343434;
     --hellGrau: #454545;
-    --hukRot: #992a4f;
 
-    --background: var(--beige);
+    --background: var(--hell);
     --backgroundPicture: url("../Pictures/Bild3V2.jpg");
 }
 
@@ -52,6 +62,7 @@ h1 {
     text-align: center;
     margin-bottom: 15px;
     padding: 20px;
+    color: var(--orange);
 }
 
 h3 {
@@ -73,12 +84,12 @@ form {
 
 #Azubis{
     box-sizing: content-box;
-    background-color: #4e7380;
+    background-color: var(--blau);
     margin-left: 15vw;
     margin-right: 15vw;
     height: 80px;
     border-radius: 20px;
-    color: #FDD319;
+    color: var(--gelb);
 }
 
 #winner {
@@ -93,7 +104,7 @@ h2 {
 
 footer {
     text-align: center;
-    color: var(--darkmodeFont);
+    color: var(--tuerkisDunkel);
     padding: 24px;
 }
 

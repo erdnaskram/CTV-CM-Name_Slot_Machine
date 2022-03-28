@@ -8,7 +8,8 @@
 { 
 "ID":"2",
 "FirstName":"Dorothy",
-"LastName":"York"
+"LastName":"York",
+"Nickname":"Ölf"
 },
 { 
 "ID":"3",
@@ -23,7 +24,8 @@
 { 
 "ID":"5",
 "FirstName":"Cedrick",
-"LastName":"Wright"
+"LastName":"Wright",
+"Nickname":"Foreschd"
 },
 { 
 "ID":"6",
@@ -63,7 +65,8 @@
 { 
 "ID":"13",
 "FirstName":"Benny",
-"LastName":"Jarrett"
+"LastName":"Jarrett",
+"Nickname":"Eumel"
 },
 { 
 "ID":"14",
